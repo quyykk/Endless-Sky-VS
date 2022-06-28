@@ -1,0 +1,970 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="endless-sky\source\main.cpp" />
+    <ClCompile Include="endless-sky\source\text\DisplayText.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\text\Font.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\text\FontSet.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\text\Format.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\text\Table.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\text\Utf8.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\text\WrappedText.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\BankPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\BoardingPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\ConversationPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\GameLoadingPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\HailPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\HiringPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\LoadPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\LogbookPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\MainPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\MapDetailPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\MapOutfitterPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\MapPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\MapSalesPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\MapShipyardPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\MenuAnimationPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\MenuPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\MissionPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\OutfitterPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\PlayerInfoPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\PreferencesPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\ShipInfoPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\ShipyardPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\ShopPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\SpaceportPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\StartConditionsPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\TradingPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\BatchShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\FogShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\LineShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\PointerShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\RingShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Shader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\SpriteShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Effect.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Body.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Flotsam.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Angle.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Bitset.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Color.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\DataNode.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\DataFile.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\DataWriter.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Date.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\EsUuid.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\File.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Files.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\FrameTimer.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Point.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Random.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\AsteroidField.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\BatchDrawList.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\DrawList.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\ImageBuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\ImageSet.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\opengl.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Sprite.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\SpriteQueue.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\SpriteSet.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\StarField.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\FillShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\OutlineShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Rectangle.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\PlanetPanel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Panel.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Dictionary.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Projectile.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Minable.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Messages.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Visual.cpp">
+      <Filter>Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\UniverseObjects.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\System.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\StellarObject.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\StartConditions.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Variant.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Weapon.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Planet.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Phrase.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Personality.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Person.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Outfit.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\NPC.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\News.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\MissionAction.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Mission.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\LocationFilter.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Interface.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Information.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Hazard.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Hardpoint.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Government.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\GameEvent.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\GameData.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\GameAction.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Galaxy.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Fleet.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Armament.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Conversation.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Ship.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Dialog.cpp">
+      <Filter>Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\PlanetLabel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\OutfitInfoDisplay.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\ItemInfoDisplay.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\EscortDisplay.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\ShipInfoDisplay.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Radar.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\GameWindow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Audio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Music.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Account.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\AI.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\CaptureOdds.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\CargoHold.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\CollisionSet.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Command.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\ConditionSet.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\CoreStartData.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\DamageProfile.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Depreciation.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\DistanceMap.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\FireCommand.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\InfoPanelState.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\PlayerInfo.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Mortgage.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Politics.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Preferences.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\SavedGame.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\ShipEvent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Weather.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\TextReplacements.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Trade.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\TestData.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\TestContext.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Sound.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Screen.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\MaskManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\Mask.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="endless-sky\source\comparators\ByGivenOrder.h">
+      <Filter>Comparators</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\comparators\ByName.h">
+      <Filter>Comparators</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\text\alignment.hpp">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\text\DisplayText.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\text\Font.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\text\FontSet.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\text\Format.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\text\layout.hpp">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\text\Table.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\text\truncate.hpp">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\text\Utf8.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\text\WrappedText.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\BankPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\BoardingPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ConversationPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\GameLoadingPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\HailPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\HiringPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\LoadPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\LogbookPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MainPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MapDetailPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MapOutfitterPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MapPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MapSalesPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MapShipyardPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MenuAnimationPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MenuPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MissionPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\OutfitterPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\PlayerInfoPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\PreferencesPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ShipInfoPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ShipyardPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ShopPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\SpaceportPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\StartConditionsPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\TradingPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\BatchShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\FogShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\LineShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\PointerShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\RingShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Shader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\SpriteShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Effect.h">
+      <Filter>Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Body.h">
+      <Filter>Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Flotsam.h">
+      <Filter>Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Angle.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Bitset.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ClickZone.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\CategoryTypes.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Color.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\DataFile.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\DataNode.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\DataWriter.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Date.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\EsUuid.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ExclusiveItem.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\File.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Files.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\FrameTimer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\pi.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Point.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Random.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\RandomEvent.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Set.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\shift.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\AsteroidField.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\BatchDrawList.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\DrawList.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ImageBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ImageSet.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\opengl.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Sprite.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\SpriteQueue.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\SpriteSet.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\StarField.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\FillShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\OutlineShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\WeightedList.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Rectangle.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\PlanetPanel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Panel.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Dictionary.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Projectile.h">
+      <Filter>Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Minable.h">
+      <Filter>Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Visual.h">
+      <Filter>Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\UniverseObjects.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\System.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\StellarObject.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\StartConditions.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Variant.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Weapon.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Planet.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Phrase.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Personality.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Person.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Outfit.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\NPC.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\News.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MissionAction.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Mission.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\LocationFilter.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Interface.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Information.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Hazard.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Hardpoint.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Government.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\GameEvent.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\GameData.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\GameAction.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Galaxy.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Fleet.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Armament.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Conversation.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Messages.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Ship.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Dialog.h">
+      <Filter>Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Sale.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\PlanetLabel.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\OutfitInfoDisplay.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ItemInfoDisplay.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\EscortDisplay.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ShipInfoDisplay.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Radar.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\GameWindow.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Audio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Music.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Account.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\AI.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\CaptureOdds.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\CargoHold.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\CollisionSet.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Command.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ConditionSet.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\CoreStartData.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\DamageDealt.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\DamageProfile.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Depreciation.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\DistanceMap.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\FireCommand.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\InfoPanelState.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\PlayerInfo.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Mortgage.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Preferences.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Politics.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\SavedGame.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ShipEvent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Weather.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\TextReplacements.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Trade.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\TestData.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\TestContext.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Test.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Sound.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Screen.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Mask.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MaskManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="endless-sky\source\WinApp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Comparators">
+      <UniqueIdentifier>{371ce66c-1ccf-4d39-8934-e1094824554d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{6db8325a-62f4-4f66-8be8-97e3994fa6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Panels">
+      <UniqueIdentifier>{79526ad4-f29b-4fdd-a145-613fbe036866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{7914ddec-52db-4e52-ac39-4424aa91297b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bodies">
+      <UniqueIdentifier>{d539083d-abcf-4cdc-8cee-fca0c44e0a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{d084d2b5-e39a-4f44-8aa7-647a7599d428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{3c3102e4-ed2c-4f4a-be0d-162e15ab8bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{6d46de2c-49bd-42aa-b820-4232f2f311ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{2eb78da5-b95b-4e58-a645-fff009f5a870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameData">
+      <UniqueIdentifier>{0710461b-e97b-4de1-acaf-54cff847bf7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{b7d170b2-c6d5-4496-a834-baae0174f101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{23e48ff3-70ed-4d18-976b-29aaf746c9a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

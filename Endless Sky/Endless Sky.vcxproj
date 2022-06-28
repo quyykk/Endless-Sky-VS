@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="endless-sky\source\Account.cpp" />
+    <ClCompile Include="endless-sky\source\AI.cpp" />
+    <ClCompile Include="endless-sky\source\Angle.cpp" />
+    <ClCompile Include="endless-sky\source\Armament.cpp" />
+    <ClCompile Include="endless-sky\source\AsteroidField.cpp" />
+    <ClCompile Include="endless-sky\source\Audio.cpp" />
+    <ClCompile Include="endless-sky\source\BankPanel.cpp" />
+    <ClCompile Include="endless-sky\source\BatchDrawList.cpp" />
+    <ClCompile Include="endless-sky\source\BatchShader.cpp" />
+    <ClCompile Include="endless-sky\source\Bitset.cpp" />
+    <ClCompile Include="endless-sky\source\BoardingPanel.cpp" />
+    <ClCompile Include="endless-sky\source\Body.cpp" />
+    <ClCompile Include="endless-sky\source\CaptureOdds.cpp" />
+    <ClCompile Include="endless-sky\source\CargoHold.cpp" />
+    <ClCompile Include="endless-sky\source\CollisionSet.cpp" />
+    <ClCompile Include="endless-sky\source\Color.cpp" />
+    <ClCompile Include="endless-sky\source\Command.cpp" />
+    <ClCompile Include="endless-sky\source\ConditionSet.cpp" />
+    <ClCompile Include="endless-sky\source\Conversation.cpp" />
+    <ClCompile Include="endless-sky\source\ConversationPanel.cpp" />
+    <ClCompile Include="endless-sky\source\CoreStartData.cpp" />
+    <ClCompile Include="endless-sky\source\DamageProfile.cpp" />
+    <ClCompile Include="endless-sky\source\DataFile.cpp" />
+    <ClCompile Include="endless-sky\source\DataNode.cpp" />
+    <ClCompile Include="endless-sky\source\DataWriter.cpp" />
+    <ClCompile Include="endless-sky\source\Date.cpp" />
+    <ClCompile Include="endless-sky\source\Depreciation.cpp" />
+    <ClCompile Include="endless-sky\source\Dialog.cpp" />
+    <ClCompile Include="endless-sky\source\Dictionary.cpp" />
+    <ClCompile Include="endless-sky\source\DistanceMap.cpp" />
+    <ClCompile Include="endless-sky\source\DrawList.cpp" />
+    <ClCompile Include="endless-sky\source\Effect.cpp" />
+    <ClCompile Include="endless-sky\source\Engine.cpp" />
+    <ClCompile Include="endless-sky\source\EscortDisplay.cpp" />
+    <ClCompile Include="endless-sky\source\EsUuid.cpp" />
+    <ClCompile Include="endless-sky\source\File.cpp" />
+    <ClCompile Include="endless-sky\source\Files.cpp" />
+    <ClCompile Include="endless-sky\source\FillShader.cpp" />
+    <ClCompile Include="endless-sky\source\FireCommand.cpp" />
+    <ClCompile Include="endless-sky\source\Fleet.cpp" />
+    <ClCompile Include="endless-sky\source\Flotsam.cpp" />
+    <ClCompile Include="endless-sky\source\FogShader.cpp" />
+    <ClCompile Include="endless-sky\source\FrameTimer.cpp" />
+    <ClCompile Include="endless-sky\source\Galaxy.cpp" />
+    <ClCompile Include="endless-sky\source\GameAction.cpp" />
+    <ClCompile Include="endless-sky\source\GameData.cpp" />
+    <ClCompile Include="endless-sky\source\GameEvent.cpp" />
+    <ClCompile Include="endless-sky\source\GameLoadingPanel.cpp" />
+    <ClCompile Include="endless-sky\source\GameWindow.cpp" />
+    <ClCompile Include="endless-sky\source\Government.cpp" />
+    <ClCompile Include="endless-sky\source\HailPanel.cpp" />
+    <ClCompile Include="endless-sky\source\Hardpoint.cpp" />
+    <ClCompile Include="endless-sky\source\Hazard.cpp" />
+    <ClCompile Include="endless-sky\source\HiringPanel.cpp" />
+    <ClCompile Include="endless-sky\source\ImageBuffer.cpp" />
+    <ClCompile Include="endless-sky\source\ImageSet.cpp" />
+    <ClCompile Include="endless-sky\source\InfoPanelState.cpp" />
+    <ClCompile Include="endless-sky\source\Information.cpp" />
+    <ClCompile Include="endless-sky\source\Interface.cpp" />
+    <ClCompile Include="endless-sky\source\ItemInfoDisplay.cpp" />
+    <ClCompile Include="endless-sky\source\LineShader.cpp" />
+    <ClCompile Include="endless-sky\source\LoadPanel.cpp" />
+    <ClCompile Include="endless-sky\source\LocationFilter.cpp" />
+    <ClCompile Include="endless-sky\source\LogbookPanel.cpp" />
+    <ClCompile Include="endless-sky\source\main.cpp" />
+    <ClCompile Include="endless-sky\source\MainPanel.cpp" />
+    <ClCompile Include="endless-sky\source\MapDetailPanel.cpp" />
+    <ClCompile Include="endless-sky\source\MapOutfitterPanel.cpp" />
+    <ClCompile Include="endless-sky\source\MapPanel.cpp" />
+    <ClCompile Include="endless-sky\source\MapSalesPanel.cpp" />
+    <ClCompile Include="endless-sky\source\MapShipyardPanel.cpp" />
+    <ClCompile Include="endless-sky\source\Mask.cpp" />
+    <ClCompile Include="endless-sky\source\MaskManager.cpp" />
+    <ClCompile Include="endless-sky\source\MenuAnimationPanel.cpp" />
+    <ClCompile Include="endless-sky\source\MenuPanel.cpp" />
+    <ClCompile Include="endless-sky\source\Messages.cpp" />
+    <ClCompile Include="endless-sky\source\Minable.cpp" />
+    <ClCompile Include="endless-sky\source\Mission.cpp" />
+    <ClCompile Include="endless-sky\source\MissionAction.cpp" />
+    <ClCompile Include="endless-sky\source\MissionPanel.cpp" />
+    <ClCompile Include="endless-sky\source\Mortgage.cpp" />
+    <ClCompile Include="endless-sky\source\Music.cpp" />
+    <ClCompile Include="endless-sky\source\News.cpp" />
+    <ClCompile Include="endless-sky\source\NPC.cpp" />
+    <ClCompile Include="endless-sky\source\opengl.cpp" />
+    <ClCompile Include="endless-sky\source\Outfit.cpp" />
+    <ClCompile Include="endless-sky\source\OutfitInfoDisplay.cpp" />
+    <ClCompile Include="endless-sky\source\OutfitterPanel.cpp" />
+    <ClCompile Include="endless-sky\source\OutlineShader.cpp" />
+    <ClCompile Include="endless-sky\source\Panel.cpp" />
+    <ClCompile Include="endless-sky\source\Person.cpp" />
+    <ClCompile Include="endless-sky\source\Personality.cpp" />
+    <ClCompile Include="endless-sky\source\Phrase.cpp" />
+    <ClCompile Include="endless-sky\source\Planet.cpp" />
+    <ClCompile Include="endless-sky\source\PlanetLabel.cpp" />
+    <ClCompile Include="endless-sky\source\PlanetPanel.cpp" />
+    <ClCompile Include="endless-sky\source\PlayerInfo.cpp" />
+    <ClCompile Include="endless-sky\source\PlayerInfoPanel.cpp" />
+    <ClCompile Include="endless-sky\source\Point.cpp" />
+    <ClCompile Include="endless-sky\source\PointerShader.cpp" />
+    <ClCompile Include="endless-sky\source\Politics.cpp" />
+    <ClCompile Include="endless-sky\source\Preferences.cpp" />
+    <ClCompile Include="endless-sky\source\PreferencesPanel.cpp" />
+    <ClCompile Include="endless-sky\source\Projectile.cpp" />
+    <ClCompile Include="endless-sky\source\Radar.cpp" />
+    <ClCompile Include="endless-sky\source\Random.cpp" />
+    <ClCompile Include="endless-sky\source\Rectangle.cpp" />
+    <ClCompile Include="endless-sky\source\RingShader.cpp" />
+    <ClCompile Include="endless-sky\source\SavedGame.cpp" />
+    <ClCompile Include="endless-sky\source\Screen.cpp" />
+    <ClCompile Include="endless-sky\source\Shader.cpp" />
+    <ClCompile Include="endless-sky\source\Ship.cpp" />
+    <ClCompile Include="endless-sky\source\ShipEvent.cpp" />
+    <ClCompile Include="endless-sky\source\ShipInfoDisplay.cpp" />
+    <ClCompile Include="endless-sky\source\ShipInfoPanel.cpp" />
+    <ClCompile Include="endless-sky\source\ShipyardPanel.cpp" />
+    <ClCompile Include="endless-sky\source\ShopPanel.cpp" />
+    <ClCompile Include="endless-sky\source\Sound.cpp" />
+    <ClCompile Include="endless-sky\source\SpaceportPanel.cpp" />
+    <ClCompile Include="endless-sky\source\Sprite.cpp" />
+    <ClCompile Include="endless-sky\source\SpriteQueue.cpp" />
+    <ClCompile Include="endless-sky\source\SpriteSet.cpp" />
+    <ClCompile Include="endless-sky\source\SpriteShader.cpp" />
+    <ClCompile Include="endless-sky\source\StarField.cpp" />
+    <ClCompile Include="endless-sky\source\StartConditions.cpp" />
+    <ClCompile Include="endless-sky\source\StartConditionsPanel.cpp" />
+    <ClCompile Include="endless-sky\source\StellarObject.cpp" />
+    <ClCompile Include="endless-sky\source\System.cpp" />
+    <ClCompile Include="endless-sky\source\Test.cpp" />
+    <ClCompile Include="endless-sky\source\TestContext.cpp" />
+    <ClCompile Include="endless-sky\source\TestData.cpp" />
+    <ClCompile Include="endless-sky\source\TextReplacements.cpp" />
+    <ClCompile Include="endless-sky\source\text\DisplayText.cpp" />
+    <ClCompile Include="endless-sky\source\text\Font.cpp" />
+    <ClCompile Include="endless-sky\source\text\FontSet.cpp" />
+    <ClCompile Include="endless-sky\source\text\Format.cpp" />
+    <ClCompile Include="endless-sky\source\text\Table.cpp" />
+    <ClCompile Include="endless-sky\source\text\Utf8.cpp" />
+    <ClCompile Include="endless-sky\source\text\WrappedText.cpp" />
+    <ClCompile Include="endless-sky\source\Trade.cpp" />
+    <ClCompile Include="endless-sky\source\TradingPanel.cpp" />
+    <ClCompile Include="endless-sky\source\UI.cpp" />
+    <ClCompile Include="endless-sky\source\UniverseObjects.cpp" />
+    <ClCompile Include="endless-sky\source\Variant.cpp" />
+    <ClCompile Include="endless-sky\source\Visual.cpp" />
+    <ClCompile Include="endless-sky\source\Weapon.cpp" />
+    <ClCompile Include="endless-sky\source\Weather.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="endless-sky\source\Account.h" />
+    <ClInclude Include="endless-sky\source\AI.h" />
+    <ClInclude Include="endless-sky\source\Angle.h" />
+    <ClInclude Include="endless-sky\source\Armament.h" />
+    <ClInclude Include="endless-sky\source\AsteroidField.h" />
+    <ClInclude Include="endless-sky\source\Audio.h" />
+    <ClInclude Include="endless-sky\source\BankPanel.h" />
+    <ClInclude Include="endless-sky\source\BatchDrawList.h" />
+    <ClInclude Include="endless-sky\source\BatchShader.h" />
+    <ClInclude Include="endless-sky\source\Bitset.h" />
+    <ClInclude Include="endless-sky\source\BoardingPanel.h" />
+    <ClInclude Include="endless-sky\source\Body.h" />
+    <ClInclude Include="endless-sky\source\CaptureOdds.h" />
+    <ClInclude Include="endless-sky\source\CargoHold.h" />
+    <ClInclude Include="endless-sky\source\CategoryTypes.h" />
+    <ClInclude Include="endless-sky\source\ClickZone.h" />
+    <ClInclude Include="endless-sky\source\CollisionSet.h" />
+    <ClInclude Include="endless-sky\source\Color.h" />
+    <ClInclude Include="endless-sky\source\Command.h" />
+    <ClInclude Include="endless-sky\source\comparators\ByGivenOrder.h" />
+    <ClInclude Include="endless-sky\source\comparators\ByName.h" />
+    <ClInclude Include="endless-sky\source\ConditionSet.h" />
+    <ClInclude Include="endless-sky\source\Conversation.h" />
+    <ClInclude Include="endless-sky\source\ConversationPanel.h" />
+    <ClInclude Include="endless-sky\source\CoreStartData.h" />
+    <ClInclude Include="endless-sky\source\DamageDealt.h" />
+    <ClInclude Include="endless-sky\source\DamageProfile.h" />
+    <ClInclude Include="endless-sky\source\DataFile.h" />
+    <ClInclude Include="endless-sky\source\DataNode.h" />
+    <ClInclude Include="endless-sky\source\DataWriter.h" />
+    <ClInclude Include="endless-sky\source\Date.h" />
+    <ClInclude Include="endless-sky\source\Depreciation.h" />
+    <ClInclude Include="endless-sky\source\Dialog.h" />
+    <ClInclude Include="endless-sky\source\Dictionary.h" />
+    <ClInclude Include="endless-sky\source\DistanceMap.h" />
+    <ClInclude Include="endless-sky\source\DrawList.h" />
+    <ClInclude Include="endless-sky\source\Effect.h" />
+    <ClInclude Include="endless-sky\source\Engine.h" />
+    <ClInclude Include="endless-sky\source\EscortDisplay.h" />
+    <ClInclude Include="endless-sky\source\EsUuid.h" />
+    <ClInclude Include="endless-sky\source\ExclusiveItem.h" />
+    <ClInclude Include="endless-sky\source\File.h" />
+    <ClInclude Include="endless-sky\source\Files.h" />
+    <ClInclude Include="endless-sky\source\FillShader.h" />
+    <ClInclude Include="endless-sky\source\FireCommand.h" />
+    <ClInclude Include="endless-sky\source\Fleet.h" />
+    <ClInclude Include="endless-sky\source\Flotsam.h" />
+    <ClInclude Include="endless-sky\source\FogShader.h" />
+    <ClInclude Include="endless-sky\source\FrameTimer.h" />
+    <ClInclude Include="endless-sky\source\Galaxy.h" />
+    <ClInclude Include="endless-sky\source\GameAction.h" />
+    <ClInclude Include="endless-sky\source\GameData.h" />
+    <ClInclude Include="endless-sky\source\GameEvent.h" />
+    <ClInclude Include="endless-sky\source\GameLoadingPanel.h" />
+    <ClInclude Include="endless-sky\source\GameWindow.h" />
+    <ClInclude Include="endless-sky\source\Government.h" />
+    <ClInclude Include="endless-sky\source\HailPanel.h" />
+    <ClInclude Include="endless-sky\source\Hardpoint.h" />
+    <ClInclude Include="endless-sky\source\Hazard.h" />
+    <ClInclude Include="endless-sky\source\HiringPanel.h" />
+    <ClInclude Include="endless-sky\source\ImageBuffer.h" />
+    <ClInclude Include="endless-sky\source\ImageSet.h" />
+    <ClInclude Include="endless-sky\source\InfoPanelState.h" />
+    <ClInclude Include="endless-sky\source\Information.h" />
+    <ClInclude Include="endless-sky\source\Interface.h" />
+    <ClInclude Include="endless-sky\source\ItemInfoDisplay.h" />
+    <ClInclude Include="endless-sky\source\LineShader.h" />
+    <ClInclude Include="endless-sky\source\LoadPanel.h" />
+    <ClInclude Include="endless-sky\source\LocationFilter.h" />
+    <ClInclude Include="endless-sky\source\LogbookPanel.h" />
+    <ClInclude Include="endless-sky\source\MainPanel.h" />
+    <ClInclude Include="endless-sky\source\MapDetailPanel.h" />
+    <ClInclude Include="endless-sky\source\MapOutfitterPanel.h" />
+    <ClInclude Include="endless-sky\source\MapPanel.h" />
+    <ClInclude Include="endless-sky\source\MapSalesPanel.h" />
+    <ClInclude Include="endless-sky\source\MapShipyardPanel.h" />
+    <ClInclude Include="endless-sky\source\Mask.h" />
+    <ClInclude Include="endless-sky\source\MaskManager.h" />
+    <ClInclude Include="endless-sky\source\MenuAnimationPanel.h" />
+    <ClInclude Include="endless-sky\source\MenuPanel.h" />
+    <ClInclude Include="endless-sky\source\Messages.h" />
+    <ClInclude Include="endless-sky\source\Minable.h" />
+    <ClInclude Include="endless-sky\source\Mission.h" />
+    <ClInclude Include="endless-sky\source\MissionAction.h" />
+    <ClInclude Include="endless-sky\source\MissionPanel.h" />
+    <ClInclude Include="endless-sky\source\Mortgage.h" />
+    <ClInclude Include="endless-sky\source\Music.h" />
+    <ClInclude Include="endless-sky\source\News.h" />
+    <ClInclude Include="endless-sky\source\NPC.h" />
+    <ClInclude Include="endless-sky\source\opengl.h" />
+    <ClInclude Include="endless-sky\source\Outfit.h" />
+    <ClInclude Include="endless-sky\source\OutfitInfoDisplay.h" />
+    <ClInclude Include="endless-sky\source\OutfitterPanel.h" />
+    <ClInclude Include="endless-sky\source\OutlineShader.h" />
+    <ClInclude Include="endless-sky\source\Panel.h" />
+    <ClInclude Include="endless-sky\source\Person.h" />
+    <ClInclude Include="endless-sky\source\Personality.h" />
+    <ClInclude Include="endless-sky\source\Phrase.h" />
+    <ClInclude Include="endless-sky\source\pi.h" />
+    <ClInclude Include="endless-sky\source\Planet.h" />
+    <ClInclude Include="endless-sky\source\PlanetLabel.h" />
+    <ClInclude Include="endless-sky\source\PlanetPanel.h" />
+    <ClInclude Include="endless-sky\source\PlayerInfo.h" />
+    <ClInclude Include="endless-sky\source\PlayerInfoPanel.h" />
+    <ClInclude Include="endless-sky\source\Point.h" />
+    <ClInclude Include="endless-sky\source\PointerShader.h" />
+    <ClInclude Include="endless-sky\source\Politics.h" />
+    <ClInclude Include="endless-sky\source\Preferences.h" />
+    <ClInclude Include="endless-sky\source\PreferencesPanel.h" />
+    <ClInclude Include="endless-sky\source\Projectile.h" />
+    <ClInclude Include="endless-sky\source\Radar.h" />
+    <ClInclude Include="endless-sky\source\Random.h" />
+    <ClInclude Include="endless-sky\source\RandomEvent.h" />
+    <ClInclude Include="endless-sky\source\Rectangle.h" />
+    <ClInclude Include="endless-sky\source\RingShader.h" />
+    <ClInclude Include="endless-sky\source\Sale.h" />
+    <ClInclude Include="endless-sky\source\SavedGame.h" />
+    <ClInclude Include="endless-sky\source\Screen.h" />
+    <ClInclude Include="endless-sky\source\Set.h" />
+    <ClInclude Include="endless-sky\source\Shader.h" />
+    <ClInclude Include="endless-sky\source\shift.h" />
+    <ClInclude Include="endless-sky\source\Ship.h" />
+    <ClInclude Include="endless-sky\source\ShipEvent.h" />
+    <ClInclude Include="endless-sky\source\ShipInfoDisplay.h" />
+    <ClInclude Include="endless-sky\source\ShipInfoPanel.h" />
+    <ClInclude Include="endless-sky\source\ShipyardPanel.h" />
+    <ClInclude Include="endless-sky\source\ShopPanel.h" />
+    <ClInclude Include="endless-sky\source\Sound.h" />
+    <ClInclude Include="endless-sky\source\SpaceportPanel.h" />
+    <ClInclude Include="endless-sky\source\Sprite.h" />
+    <ClInclude Include="endless-sky\source\SpriteQueue.h" />
+    <ClInclude Include="endless-sky\source\SpriteSet.h" />
+    <ClInclude Include="endless-sky\source\SpriteShader.h" />
+    <ClInclude Include="endless-sky\source\StarField.h" />
+    <ClInclude Include="endless-sky\source\StartConditions.h" />
+    <ClInclude Include="endless-sky\source\StartConditionsPanel.h" />
+    <ClInclude Include="endless-sky\source\StellarObject.h" />
+    <ClInclude Include="endless-sky\source\System.h" />
+    <ClInclude Include="endless-sky\source\Test.h" />
+    <ClInclude Include="endless-sky\source\TestContext.h" />
+    <ClInclude Include="endless-sky\source\TestData.h" />
+    <ClInclude Include="endless-sky\source\TextReplacements.h" />
+    <ClInclude Include="endless-sky\source\text\alignment.hpp" />
+    <ClInclude Include="endless-sky\source\text\DisplayText.h" />
+    <ClInclude Include="endless-sky\source\text\Font.h" />
+    <ClInclude Include="endless-sky\source\text\FontSet.h" />
+    <ClInclude Include="endless-sky\source\text\Format.h" />
+    <ClInclude Include="endless-sky\source\text\layout.hpp" />
+    <ClInclude Include="endless-sky\source\text\Table.h" />
+    <ClInclude Include="endless-sky\source\text\truncate.hpp" />
+    <ClInclude Include="endless-sky\source\text\Utf8.h" />
+    <ClInclude Include="endless-sky\source\text\WrappedText.h" />
+    <ClInclude Include="endless-sky\source\Trade.h" />
+    <ClInclude Include="endless-sky\source\TradingPanel.h" />
+    <ClInclude Include="endless-sky\source\UI.h" />
+    <ClInclude Include="endless-sky\source\UniverseObjects.h" />
+    <ClInclude Include="endless-sky\source\Variant.h" />
+    <ClInclude Include="endless-sky\source\Visual.h" />
+    <ClInclude Include="endless-sky\source\Weapon.h" />
+    <ClInclude Include="endless-sky\source\Weather.h" />
+    <ClInclude Include="endless-sky\source\WeightedList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="endless-sky\source\WinApp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="endless-sky\credits.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>%(Filename)%(Extension)</Link>
+    </Content>
+    <Content Include="endless-sky\data\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>data\%(RecursiveDir)\%(Filename)%(Extension)</Link>
+    </Content>
+    <Content Include="endless-sky\images\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>images\%(RecursiveDir)\%(Filename)%(Extension)</Link>
+    </Content>
+    <Content Include="endless-sky\sounds\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>sounds\%(RecursiveDir)\%(Filename)%(Extension)</Link>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b62d20aa-c881-44cd-80fb-b0fadd51846d}</ProjectGuid>
+    <RootNamespace>EndlessSky</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <CopyLocalDeploymentContent>true</CopyLocalDeploymentContent>
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <CopyLocalDeploymentContent>true</CopyLocalDeploymentContent>
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4267;4244;4804;4805;4305;4068;4018;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+      <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Rpcrt4.lib;Winmm.lib;SDL2maind.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4267;4244;4804;4805;4305;4068;4018;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+      <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Rpcrt4.lib;Winmm.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
