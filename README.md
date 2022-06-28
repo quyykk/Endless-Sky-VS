@@ -21,4 +21,4 @@ Next, we need to install the libraries needed by the game. I highly recommend us
 
 Once the command finishes you're good to go! Open the solution using Visual Studio and hit F5 to start compiling.
 
-**Important:** Visual Studio emits a couple of errors while compiling the game at the moment. These are fixed in PR ####.
+**Important:** Visual Studio emits a couple of errors while compiling the game at the moment. These are fixed in PR 6984.
