@@ -1,6 +1,6 @@
 # Endless-Sky-VS
 
-A Visual Studio 2022 project for Endless Sky.
+A Visual Studio 2022 project for Endless Sky. Might work with previous versions of VS provided you change the toolset in the project properties.
 
 ## Setup
 
