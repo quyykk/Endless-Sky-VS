@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          recursive: true
+          submodules: 'vcpkg'
       - name: Install dev libraries
         uses: lukka/run-vcpkg@v10
         with:
