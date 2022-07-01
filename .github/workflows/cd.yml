@@ -12,6 +12,7 @@ jobs:
         uses: lukka/run-vcpkg@v10
         with:
           runVcpkgInstall: true
+        run: cd vcpkg && vcpkg integrate install
       - name: Find MSBuild
         uses: microsoft/setup-msbuild@v1.1
       - name: Clone the latest Endless Sky continuous
