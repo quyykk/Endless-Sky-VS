@@ -12,5 +12,7 @@ jobs:
           runVcpkgInstall: true
       - name: Find MSBuild
         uses: microsoft/setup-msbuild@v1.1
+      - name: Clone the latest Endless Sky continuous
+        run: cd 'Endless Sky' && git clone https://github.com/endless-sky/endless-sky
       - name: Build Endless Sky
         run: msbuild 'Endless Sky.sln' -property:Configuration=Release
