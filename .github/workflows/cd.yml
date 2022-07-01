@@ -1,0 +1,16 @@
+name: CD
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dev libraries
+        uses: lukka/run-vcpkg@v10
+        with:
+          runVcpkgInstall: true
+      - name: Find MSBuild
+        uses: microsoft/setup-msbuild@v1.1
+      - name: Build Endless Sky
+        run: msbuild 'Endless Sky.sln' -property:Configuration=Release
