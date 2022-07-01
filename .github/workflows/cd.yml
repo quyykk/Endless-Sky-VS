@@ -15,7 +15,7 @@ jobs:
       - name: Find MSBuild
         uses: microsoft/setup-msbuild@v1.1
       - name: Clone the latest Endless Sky continuous
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
         with:
           repository: endless-sky/endless-sky
           path: 'Endless Sky'/endless-sky
