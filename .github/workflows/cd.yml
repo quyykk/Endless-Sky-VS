@@ -5,7 +5,7 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: 'vcpkg'
       - name: Install dev libraries
@@ -15,6 +15,9 @@ jobs:
       - name: Find MSBuild
         uses: microsoft/setup-msbuild@v1.1
       - name: Clone the latest Endless Sky continuous
-        run: cd 'Endless Sky' && git clone https://github.com/endless-sky/endless-sky
+        uses: actions/checkout@v3
+        with:
+          repository: endless-sky/endless-sky
+          path: 'Endless Sky'/endless-sky
       - name: Build Endless Sky
         run: msbuild 'Endless Sky.sln' -property:Configuration=Release
