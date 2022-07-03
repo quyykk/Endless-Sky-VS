@@ -967,4 +967,7 @@
       <UniqueIdentifier>{23e48ff3-70ed-4d18-976b-29aaf746c9a1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="endless-sky\.editorconfig" />
+  </ItemGroup>
 </Project>
