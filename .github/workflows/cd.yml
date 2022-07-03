@@ -17,9 +17,8 @@ jobs:
       - name: Checkout Endless Sky continuous
         uses: actions/checkout@v3
         with:
-          repository: quyykk/endless-sky
+          repository: endless-sky/endless-sky
           path: 'Endless Sky/endless-sky'
-          ref: msvc-fixes
       - name: Build Endless Sky
         run: msbuild 'Endless Sky.sln' -property:Configuration=Release
       - name: Package application

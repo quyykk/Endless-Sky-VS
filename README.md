@@ -26,5 +26,3 @@ Now you need a copy of the ES source code. The location should be inside the `En
 If you plan on contributing to the game, you should clone your fork so that you can publish any changes you make.
 
 Now you're good to go! Open the solution using Visual Studio and hit F5 to start compiling.
-
-**Important:** Visual Studio emits a couple of errors while compiling the game at the moment. These are fixed in PR 6984.
