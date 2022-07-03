@@ -20,6 +20,6 @@ jobs:
           repository: quyykk/endless-sky
           path: 'Endless Sky/endless-sky'
       - name: Switch branches
-        run: git checkout msvc-fixes
+        run: cd 'Endless Sky/endless-sky' && git checkout msvc-fixes
       - name: Build Endless Sky
         run: msbuild 'Endless Sky.sln' -property:Configuration=Release
