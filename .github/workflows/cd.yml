@@ -17,7 +17,9 @@ jobs:
       - name: Clone the latest Endless Sky continuous
         uses: actions/checkout@v3
         with:
-          repository: endless-sky/endless-sky
+          repository: quyykk/endless-sky
           path: 'Endless Sky/endless-sky'
+      - name: Switch branches
+        run: git checkout msvc-fixes
       - name: Build Endless Sky
         run: msbuild 'Endless Sky.sln' -property:Configuration=Release
