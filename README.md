@@ -4,7 +4,9 @@ A Visual Studio 2022 project for Endless Sky. Might work with previous versions 
 
 ## Setup
 
-You need a copy of the ES source code. The location should be inside the `Endless Sky` folder. The easiest way to do so is to clone the ES repo inside `Endless Sky`.
+Clone this project wherever you want your VS project to reside. Note: Since we use a submodule downloading the Zip file will result in an empty directory instead of a submodule. So clone this repo instead.
+
+Next, you need a copy of the ES source code. The location should be inside the `Endless Sky` folder and it has to be named `endless-sky`. The easiest way to do so is to clone the ES repo inside `Endless Sky`.
 
 ```cmd
 > cd "Endless Sky"
@@ -13,12 +15,8 @@ You need a copy of the ES source code. The location should be inside the `Endles
 
 If you plan on contributing to the game, you should clone your fork so that you can publish any changes you make.
 
-Next, we need to install the libraries needed by the game. I highly recommend using [vcpkg](https://github.com/microsoft/vcpkg) for this. Once you have installed vcpkg you can install the correct dependencies using the following command:
+Next you need to setup vcpkg. Simply execute the provided `setup.bat` file to do so.
 
-```cmd
-> .\vcpkg\vcpkg install sdl2 openal-soft libpng libjpeg-turbo libmad glew --triplet=x64-windows
-```
-
-Once the command finishes you're good to go! Open the solution using Visual Studio and hit F5 to start compiling.
+Now you're good to go! Open the solution using Visual Studio and hit F5 to start compiling.
 
 **Important:** Visual Studio emits a couple of errors while compiling the game at the moment. These are fixed in PR 6984.
