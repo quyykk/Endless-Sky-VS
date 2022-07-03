@@ -34,5 +34,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: .\x64\Release\${{ env.OUTPUT }}
+          name: ${{ env.OUTPUT }}
           path: .\x64\Release\${{ env.OUTPUT }}
