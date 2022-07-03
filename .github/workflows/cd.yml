@@ -4,6 +4,8 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: windows-latest
+    env:
+      OUTPUT: EndlessSky-msvc-continuous.zip
     steps:
       - uses: actions/checkout@v3
         with:
@@ -12,7 +14,7 @@ jobs:
         uses: lukka/run-vcpkg@v10
       - name: Find MSBuild
         uses: microsoft/setup-msbuild@v1.1
-      - name: Clone the latest Endless Sky continuous
+      - name: Checkout Endless Sky continuous
         uses: actions/checkout@v3
         with:
           repository: quyykk/endless-sky
@@ -20,3 +22,17 @@ jobs:
           ref: msvc-fixes
       - name: Build Endless Sky
         run: msbuild 'Endless Sky.sln' -property:Configuration=Release
+      - name: Package application
+        run: |
+          COPY 'Endless Sky/endless-sky/license.txt' .\x64\Release\
+          COPY 'Endless Sky/endless-sky/keys.txt' .\x64\Release\
+          COPY 'Endless Sky/endless-sky/icon.png' .\x64\Release\
+          COPY 'Endless Sky/endless-sky/copyright' .\x64\Release\
+          COPY 'Endless Sky/endless-sky/changelog' .\x64\Release\
+          cd .\x64\Release\
+          7z a ${{ env.OUTPUT }} .\sounds\ .\images\ .\data\ *.dll license.txt keys.txt icon.png 'Endless Sky.exe' credits.txt copyright changelog
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.OUTPUT }}
+          path: ${{ env.OUTPUT }}
