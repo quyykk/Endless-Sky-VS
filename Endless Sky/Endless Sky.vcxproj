@@ -88,6 +88,7 @@
     <ClCompile Include="endless-sky\source\MapDetailPanel.cpp" />
     <ClCompile Include="endless-sky\source\MapOutfitterPanel.cpp" />
     <ClCompile Include="endless-sky\source\MapPanel.cpp" />
+    <ClCompile Include="endless-sky\source\MapPlanetCard.cpp" />
     <ClCompile Include="endless-sky\source\MapSalesPanel.cpp" />
     <ClCompile Include="endless-sky\source\MapShipyardPanel.cpp" />
     <ClCompile Include="endless-sky\source\Mask.cpp" />
@@ -242,6 +243,7 @@
     <ClInclude Include="endless-sky\source\MapDetailPanel.h" />
     <ClInclude Include="endless-sky\source\MapOutfitterPanel.h" />
     <ClInclude Include="endless-sky\source\MapPanel.h" />
+    <ClInclude Include="endless-sky\source\MapPlanetCard.h" />
     <ClInclude Include="endless-sky\source\MapSalesPanel.h" />
     <ClInclude Include="endless-sky\source\MapShipyardPanel.h" />
     <ClInclude Include="endless-sky\source\Mask.h" />

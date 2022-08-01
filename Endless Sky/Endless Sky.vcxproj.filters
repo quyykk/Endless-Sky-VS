@@ -440,6 +440,9 @@
     <ClCompile Include="endless-sky\source\Mask.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
+    <ClCompile Include="endless-sky\source\MapPlanetCard.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="endless-sky\source\comparators\ByGivenOrder.h">
@@ -924,6 +927,9 @@
     </ClInclude>
     <ClInclude Include="endless-sky\source\MaskManager.h">
       <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\MapPlanetCard.h">
+      <Filter>Utility</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
