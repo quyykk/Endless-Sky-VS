@@ -443,6 +443,18 @@
     <ClCompile Include="endless-sky\source\MapPlanetCard.cpp">
       <Filter>Utility</Filter>
     </ClCompile>
+    <ClCompile Include="endless-sky\source\Logger.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\ConditionsStore.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\PrintData.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="endless-sky\source\FormationPattern.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="endless-sky\source\comparators\ByGivenOrder.h">
@@ -930,6 +942,18 @@
     </ClInclude>
     <ClInclude Include="endless-sky\source\MapPlanetCard.h">
       <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\Logger.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\ConditionsStore.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\PrintData.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="endless-sky\source\FormationPattern.h">
+      <Filter>Engine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
