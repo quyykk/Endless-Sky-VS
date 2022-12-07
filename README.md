@@ -1,5 +1,9 @@
 # Endless-Sky-VS
 
+**Notice:** This has been superseded by the CMake build system in Endless Sky itself. Please use that one instead.
+
+------
+
 A Visual Studio 2022 project for Endless Sky. Might work with previous versions of VS provided you change the toolset in the project properties.
 
 ## Download
